@@ -1,0 +1,81 @@
+2022-09-02 11:55:01,708 INFO org.springframework.boot.StartupInfoLogger [main] Starting TestTrialApplication using Java 11.0.15.1 on MUM-LAP-1576 with PID 17632 (C:\TestSpringBoot\test-trial\test-trial\build\classes\java\main started by nikhil.rokade in C:\TestSpringBoot\test-trial\test-trial)
+2022-09-02 11:55:01,723 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-09-02 11:55:02,663 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-02 11:55:02,751 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2022-09-02 11:55:03,880 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9070 (http)
+2022-09-02 11:55:03,896 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9070"]
+2022-09-02 11:55:03,896 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-02 11:55:03,896 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-02 11:55:04,165 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-02 11:55:04,165 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2371 ms
+2022-09-02 11:55:04,497 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-02 11:55:04,597 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-09-02 11:55:04,853 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-02 11:55:04,989 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-09-02 11:55:05,536 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-09-02 11:55:05,583 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-02 11:55:06,788 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-02 11:55:06,804 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-02 11:55:07,224 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-02 11:55:07,825 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9070"]
+2022-09-02 11:55:07,938 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9070 (http) with context path ''
+2022-09-02 11:55:07,948 INFO org.springframework.boot.StartupInfoLogger [main] Started TestTrialApplication in 7.034 seconds (JVM running for 8.906)
+2022-09-02 11:55:53,111 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9070-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-02 11:55:53,112 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9070-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-02 11:55:53,113 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9070-exec-2] Completed initialization in 1 ms
+2022-09-02 11:55:53,142 INFO net.trialtest.springboot.service.EmployeeService [http-nio-9070-exec-2] Information logger
+2022-09-02 11:55:53,143 ERROR net.trialtest.springboot.service.EmployeeService [http-nio-9070-exec-2] Error logger
+2022-09-02 17:24:49,060 INFO org.springframework.boot.StartupInfoLogger [main] Starting TestTrialApplication using Java 11.0.15.1 on MUM-LAP-1576 with PID 22736 (C:\TestSpringBoot\test-trial\test-trial\build\classes\java\main started by nikhil.rokade in C:\TestSpringBoot\test-trial\test-trial)
+2022-09-02 17:24:49,075 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-09-02 17:24:50,090 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-02 17:24:50,194 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 2 JPA repository interfaces.
+2022-09-02 17:24:51,415 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9070 (http)
+2022-09-02 17:24:51,431 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9070"]
+2022-09-02 17:24:51,431 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-02 17:24:51,431 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-02 17:24:51,732 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-02 17:24:51,732 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2587 ms
+2022-09-02 17:24:52,038 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-02 17:24:52,117 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-09-02 17:24:52,430 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-02 17:24:52,592 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-09-02 17:24:53,062 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-09-02 17:24:53,093 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-02 17:24:54,437 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-02 17:24:54,457 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-02 17:24:55,031 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-02 17:24:55,606 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9070"]
+2022-09-02 17:24:55,677 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9070 (http) with context path ''
+2022-09-02 17:24:55,697 INFO org.springframework.boot.StartupInfoLogger [main] Started TestTrialApplication in 7.52 seconds (JVM running for 8.319)
+2022-09-02 17:25:24,011 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9070-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-02 17:25:24,011 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9070-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-02 17:25:24,011 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9070-exec-2] Completed initialization in 0 ms
+2022-09-02 17:25:24,059 INFO net.trialtest.springboot.service.EmployeeService [http-nio-9070-exec-2] Information logger
+2022-09-02 17:25:24,059 ERROR net.trialtest.springboot.service.EmployeeService [http-nio-9070-exec-2] Error logger
+2022-09-02 17:29:11,511 INFO org.springframework.boot.StartupInfoLogger [main] Starting TestTrialApplication using Java 11.0.15.1 on MUM-LAP-1576 with PID 21572 (C:\TestSpringBoot\test-trial\test-trial\build\classes\java\main started by nikhil.rokade in C:\TestSpringBoot\test-trial\test-trial)
+2022-09-02 17:29:11,528 INFO org.springframework.boot.SpringApplication [main] The following 1 profile is active: "dev"
+2022-09-02 17:29:12,556 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-02 17:29:12,665 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2022-09-02 17:29:13,846 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9070 (http)
+2022-09-02 17:29:13,861 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9070"]
+2022-09-02 17:29:13,861 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-02 17:29:13,861 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-09-02 17:29:14,146 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-02 17:29:14,146 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2518 ms
+2022-09-02 17:29:14,570 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-02 17:29:14,730 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-09-02 17:29:15,084 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-02 17:29:15,373 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-09-02 17:29:16,039 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-09-02 17:29:16,110 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-02 17:29:17,792 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-02 17:29:17,816 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-02 17:29:18,499 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-02 17:29:19,090 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9070"]
+2022-09-02 17:29:19,159 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9070 (http) with context path ''
+2022-09-02 17:29:19,174 INFO org.springframework.boot.StartupInfoLogger [main] Started TestTrialApplication in 8.538 seconds (JVM running for 9.415)
+2022-09-02 17:29:24,863 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9070-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-02 17:29:24,863 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9070-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-09-02 17:29:24,863 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9070-exec-2] Completed initialization in 0 ms
+2022-09-02 17:29:24,903 INFO net.trialtest.springboot.service.EmployeeService [http-nio-9070-exec-2] Information logger
+2022-09-02 17:29:24,911 ERROR net.trialtest.springboot.service.EmployeeService [http-nio-9070-exec-2] Error logger
